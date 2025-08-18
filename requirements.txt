@@ -1,0 +1,34 @@
+# --- Backend Framework ---
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
+
+# --- Core ML & Data Handling ---
+pandas
+numpy
+scikit-learn
+
+# --- Transformer Models & Acceleration ---
+# Using specific compatible versions for stability
+torch
+transformers>=4.34.0
+sentence-transformers>=2.2.0
+accelerate
+optimum
+
+# --- Vector Search & Datasets ---
+faiss-cpu
+datasets
+
+# --- Utilities ---
+tqdm
+matplotlib
+pytz
+python-dateutil
+huggingface_hub
+charset-normalizer
+Jinja2
+uvicorn
+fastapi
+hf_xet

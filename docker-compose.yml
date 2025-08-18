@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    container_name: search-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+      - ./training/data:/app/data  # Mount data for the backend to access
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+
+  frontend:
+    build: ./frontend
+    container_name: search-frontend
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules # Avoids overwriting node_modules in container
+    environment:
+      - VITE_API_BASE_URL=http://localhost:8000

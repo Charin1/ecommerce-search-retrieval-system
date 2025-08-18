@@ -1,0 +1,5 @@
+{"query_id": "q1", "product_id": "1", "clicked": true, "purchased": false, "position": 1}
+{"query_id": "q1", "product_id": "4", "clicked": true, "purchased": false, "position": 2}
+{"query_id": "q2", "product_id": "2", "clicked": false, "purchased": false, "position": 2}
+{"query_id": "q2", "product_id": "5", "clicked": true, "purchased": true, "position": 1}
+{"query_id": "q3", "product_id": "1", "clicked": true, "purchased": true, "position": 1}
