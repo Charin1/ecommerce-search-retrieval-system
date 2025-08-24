@@ -1,5 +1,9 @@
 # E-commerce Search & Retrieve System
 
+![status](https://img.shields.io/badge/status-in_development-yellow)
+
+⚠️ This project is under active development and is **not production-ready**.
+
 This project is a full-stack, production-ready search engine for e-commerce. It implements an advanced NLP-powered pipeline to understand complex user queries, retrieve relevant products from a catalog, and rank them intelligently using a state-of-the-art two-stage architecture.
 
 ### Core Features
@@ -165,3 +169,6 @@ This project provides a strong foundation. Here are potential next steps to make
 -   **Deep Personalization**: Incorporate user history (past clicks, purchases, brand affinities) as features into the reranking model to provide personalized results for each user.
 -   **Multimodal Search**: Use a model like CLIP to create combined text-and-image embeddings, enabling search that understands visual concepts and paving the way for image-based search.
 -   **Generative Search Summaries**: Use an LLM to generate a conversational summary of the top search results, providing a direct answer to the user's query.
+
+## Status
+This project is still in its early stages. Expect breaking changes.
